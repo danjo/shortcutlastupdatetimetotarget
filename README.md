@@ -1,5 +1,5 @@
 # sltt - ShortcutLastWriteTimeToTarget
-Windows shortcut(.lnk) file's LastUpdateTime update to target's one.
+Windows shortcut(.lnk) file's LastWriteTime update to target's one.
 
 # Target Environments
 Powershell 6.x, Windows Powershell 5.x with Windows7 64bit.
