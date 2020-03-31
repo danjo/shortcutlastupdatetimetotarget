@@ -52,10 +52,10 @@ function type_up($rpath, $recurse) {
 function up ($item) {
 	write-host "* $item"
 
-	$fp = $item.FullName
-	$sc = $wshell.CreateShortcut($fp)
+	$fn = $item.FullName
+	$sc = $wshell.CreateShortcut($fn)
 	$tp = $sc.TargetPath
-	# write-host "** $fp -> $tp"
+	# write-host "** $fn -> $tp"
 
 	if ((test-path $tp) -eq $false) {
 		write-host "! $item -> $tp"
