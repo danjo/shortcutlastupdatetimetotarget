@@ -2,14 +2,14 @@
 Windows shortcut(.lnk) file's LastWriteTime update to target's one.
 
 # Target Environments
-Powershell 6.x, Windows Powershell 5.x with Windows7 64bit.
+Powershell 7.x and Windows Powershell 5.x on Windows10 64bit.
 
 # CLI Usage
 ## how to run
 ### when module installed
     Update-ShortcutLastWriteTimeToTarget [-Recurse] [<path>]
 
-### when download release/repo
+### when download release zip/repo
     cd /path/to/sltt
     using module "ShortcutLastWriteTimeToTarget/ShortcutLastWriteTimeToTarget.psm1"
     Update-ShortcutLastWriteTimeToTarget [-Recurse] [<path>]
